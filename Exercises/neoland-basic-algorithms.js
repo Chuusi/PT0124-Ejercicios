@@ -29,7 +29,7 @@ car2.finalPrice = car2.basePrice + globalBasePrice; */
 
 //*Iteración#3
 
-console.log(10*5);
+/* console.log(10*5);
 
 console.log(10/2);
 
@@ -43,4 +43,28 @@ console.log(o);
 let c = 10;
 let m = 5;
 let i = c * m;
-console.log(i);
+console.log(i); */
+
+//*Iteración#4
+
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+console.log(avengers[0]);
+
+avengers[0] = "IRONMAN"
+console.log(avengers[0]);
+
+console.log(avengers.length);
+
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+rickAndMortyCharacters.push("Morty");
+rickAndMortyCharacters.push("Summer");
+console.log(rickAndMortyCharacters[rickAndMortyCharacters.length - 1]);
+
+rickAndMortyCharacters.push("Lapiz Lopez");
+rickAndMortyCharacters.pop();
+console.log(`${rickAndMortyCharacters[0]} y ${rickAndMortyCharacters[rickAndMortyCharacters.length - 1]}`);
+
+rickAndMortyCharacters.push("Lapiz Lopez");
+console.log(rickAndMortyCharacters);
+rickAndMortyCharacters.splice(1, 1);
+console.log(rickAndMortyCharacters);
