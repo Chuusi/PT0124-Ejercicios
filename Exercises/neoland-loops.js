@@ -9,7 +9,7 @@ for (let i=0; i<products.length; i++){
 
 //*Iteración#2 Condicionales avanzados
 
-const alumns = [
+/* const alumns = [
     {name: 'Pepe Viruela', T1: false, T2: false, T3: true}, 
 	{name: 'Lucia Aranda', T1: true, T2: false, T3: true},
 	{name: 'Juan Miranda', T1: false, T2: true, T3: true},
@@ -31,4 +31,11 @@ alumns.forEach((alumns)=>{
         alumns.isApproved = false;
     }
 })
-console.log(alumns);
+console.log(alumns); */
+
+//*Iteración#3 Probando For...of
+
+const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar'];
+for (place of placesToTravel){
+    console.log(place);
+}
