@@ -35,7 +35,19 @@ console.log(alumns); */
 
 //*Iteración#3 Probando For...of
 
-const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar'];
+/* const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar'];
 for (place of placesToTravel){
     console.log(place);
+} */
+
+//*Iteración#4 Probando For...in
+
+const alien = {
+    name: 'Wormuck',
+    race: 'Cucusumusu',
+    planet: 'Eden',
+    weight: '259kg'
+}
+for(data in alien){
+    console.log(`${data} : ${alien[data]}`);
 }
