@@ -8,7 +8,7 @@ let z = h + y; */
 
 //*Iteración#2
 
-const character = {name: 'Jack Sparrow', age: 10};
+/* const character = {name: 'Jack Sparrow', age: 10};
 character.age = 25;
 
 let firstName = "Jon";
@@ -25,4 +25,22 @@ const car1 = {name: 'BMW m&m', basePrice: 50000, finalPrice: 60000};
 const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
 globalBasePrice = 25000;
 car1.finalPrice = car1.basePrice + globalBasePrice;
-car2.finalPrice = car2.basePrice + globalBasePrice;
+car2.finalPrice = car2.basePrice + globalBasePrice; */
+
+//*Iteración#3
+
+console.log(10*5);
+
+console.log(10/2);
+
+console.log(15%9);
+
+let p = 10;
+let j = 5;
+let o = p + j;
+console.log(o);
+
+let c = 10;
+let m = 5;
+let i = c * m;
+console.log(i);
