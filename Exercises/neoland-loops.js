@@ -65,7 +65,7 @@ console.log(placesToTravel); */
 
 //*Iteración#6 Mixed For...of e includes
 
-const toys = [
+/* const toys = [
     {id: 5, name: 'Buzz MyYear'}, 
     {id: 11, name: 'Action Woman'}, 
     {id: 23, name: 'Barbie Man'}, 
@@ -80,4 +80,21 @@ for (let toy of toys){
     }
 }
 toys.splice(0,eliminados);
-console.log(toys);
+console.log(toys); */
+
+//*Iteración#7 For...of avanzado
+
+const popularToys = [];
+const toys = [
+	{id: 5, name: 'Buzz MyYear', sellCount: 10}, 
+	{id: 11, name: 'Action Woman', sellCount: 24}, 
+	{id: 23, name: 'Barbie Man', sellCount: 15}, 
+	{id: 40, name: 'El gato con Guantes', sellCount: 8},
+	{id: 40, name: 'El gato felix', sellCount: 35}
+]
+for(let toy of toys){
+    if(toy.sellCount > 15){
+        popularToys.push(toy);
+    }
+}
+console.log(popularToys);
