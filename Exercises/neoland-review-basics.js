@@ -63,7 +63,7 @@ let calcularMedia = function(users){
 
 //* Iteración#3: Mix Fors
 
-const users = [
+/* const users = [
     {name: 'Manolo el del bombo',
         favoritesSounds: {
             waves: {format: 'mp3', volume: 50},
@@ -107,4 +107,15 @@ let conteoFavoritos = function(users){{
         }
     }
     return cuentaFavs;
-}}
+}} */
+
+//* Iteración#4: Métodos findArrayIndex
+
+let arrayEjemplo = ['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'];
+let findArrayIndex = function(array, text){
+    return array.indexOf(text);
+}
+
+console.log(findArrayIndex(arrayEjemplo, "Mosquito"));
+console.log(findArrayIndex(arrayEjemplo, "Ajolote"));
+console.log(findArrayIndex(arrayEjemplo, "Cucaracha"));
