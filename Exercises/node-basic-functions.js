@@ -89,7 +89,7 @@ function removeDuplicates(param) {
 
 //*Iteración#7: Buscador de nombres
 
-const nameFinder = [
+/* const nameFinder = [
     'Peter',
     'Steve',
     'Tony',
@@ -109,4 +109,32 @@ function finderName(lista, nombre) {
     else{
         return false;
     }
+} */
+
+//*Iteración#8: Contador de repeticiones
+
+const counterWords = [
+    'code',
+    'repeat',
+    'eat',
+    'sleep',
+    'code',
+    'enjoy',
+    'sleep',
+    'code',
+    'enjoy',
+    'upgrade',
+    'code'
+];
+function repeatCounter(lista) {
+    let listaRepet = {};
+    for (const el of lista) {
+        if(el in listaRepet){
+            listaRepet[el]++;
+        }
+        else{
+            listaRepet[el] = 1;
+        }
+    }
+    return listaRepet;
 }
