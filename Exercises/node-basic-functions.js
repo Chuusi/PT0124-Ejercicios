@@ -64,7 +64,7 @@ function averageWord(param) {
 
 //*Iteración#6: Valores únicos
 
-const duplicates = [
+/* const duplicates = [
     'sushi',
     'pizza',
     'burger',
@@ -85,4 +85,28 @@ function removeDuplicates(param) {
         }
     }
     return arrayDef;
+} */
+
+//*Iteración#7: Buscador de nombres
+
+const nameFinder = [
+    'Peter',
+    'Steve',
+    'Tony',
+    'Natasha',
+    'Clint',
+    'Logan',
+    'Xabier',
+    'Bruce',
+    'Peggy',
+    'Jessica',
+    'Marc'
+];
+function finderName(lista, nombre) {
+    if(lista.includes(nombre)){
+        return `${true}, ${nombre} está en la lista en la posición ${lista.indexOf(nombre) + 1}`
+    }
+    else{
+        return false;
+    }
 }
