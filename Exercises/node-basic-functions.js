@@ -48,7 +48,7 @@ function average(param) {
 
 //*Iteración#5: Calcular promedio de strings
 
-const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
+/* const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
 function averageWord(param) {
     let sum = 0;
     for (let el of param){
@@ -60,4 +60,29 @@ function averageWord(param) {
         }
     }
     return sum;
+} */
+
+//*Iteración#6: Valores únicos
+
+const duplicates = [
+    'sushi',
+    'pizza',
+    'burger',
+    'potatoe',
+    'pasta',
+    'ice-cream',
+    'pizza',
+    'chicken',
+    'onion rings',
+    'pasta',
+    'soda'
+    ];
+function removeDuplicates(param) {
+    let arrayDef = [];
+    for (let word of param){
+        if(!arrayDef.includes(word)){
+            arrayDef.push(word);
+        }
+    }
+    return arrayDef;
 }
