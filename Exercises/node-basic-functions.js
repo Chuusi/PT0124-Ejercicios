@@ -11,7 +11,7 @@
 
 //Iteración#2: Buscar la palabra más larga
 
-const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
+/* const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
 function findLongestWord(param) {
     let max = 0;
     let finalWord;
@@ -22,4 +22,15 @@ function findLongestWord(param) {
         }
     }
     return finalWord;
+} */
+
+//Iteración#3: Calcular la suma
+
+const numbers = [1, 2, 3, 5, 45, 37, 58];
+function sumAll(param) {
+    let sum = 0;
+    for (let number of param){
+        sum += number;
+    }
+    return sum;
 }
