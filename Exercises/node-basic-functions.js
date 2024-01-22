@@ -1,4 +1,4 @@
-//Iteración#1: Buscar el máximo
+//*Iteración#1: Buscar el máximo
 
 /* function sum(numberOne, numberTwo) {
     if(numberOne>numberTwo){
@@ -9,7 +9,7 @@
     }
 } */
 
-//Iteración#2: Buscar la palabra más larga
+//*Iteración#2: Buscar la palabra más larga
 
 /* const avengers = ['Hulk', 'Thor', 'IronMan', 'Captain A.', 'Spiderman', 'Captain M.'];
 function findLongestWord(param) {
@@ -24,7 +24,7 @@ function findLongestWord(param) {
     return finalWord;
 } */
 
-//Iteración#3: Calcular la suma
+//*Iteración#3: Calcular la suma
 
 /* const numbers = [1, 2, 3, 5, 45, 37, 58];
 function sumAll(param) {
@@ -35,13 +35,29 @@ function sumAll(param) {
     return sum;
 } */
 
-//Iteración#4: Calcular el promedio
+//*Iteración#4: Calcular el promedio
 
-const numbers = [12, 21, 38, 5, 45, 37, 6];
+/* const numbers = [12, 21, 38, 5, 45, 37, 6];
 function average(param) {
     let sum = 0;
     for (let number of param){
         sum += number;
     }
     return sum/param.length;
+} */
+
+//*Iteración#5: Calcular promedio de strings
+
+const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
+function averageWord(param) {
+    let sum = 0;
+    for (let el of param){
+        if(typeof el == "string"){
+            sum += el.length;
+        }
+        else{
+            sum += el;
+        }
+    }
+    return sum;
 }
