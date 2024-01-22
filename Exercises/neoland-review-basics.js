@@ -111,11 +111,16 @@ let conteoFavoritos = function(users){{
 
 //* Iteración#4: Métodos findArrayIndex
 
-let arrayEjemplo = ['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'];
+/* let arrayEjemplo = ['Caracol', 'Mosquito', 'Salamandra', 'Ajolote'];
 let findArrayIndex = function(array, text){
     return array.indexOf(text);
 }
 
 console.log(findArrayIndex(arrayEjemplo, "Mosquito"));
 console.log(findArrayIndex(arrayEjemplo, "Ajolote"));
-console.log(findArrayIndex(arrayEjemplo, "Cucaracha"));
+console.log(findArrayIndex(arrayEjemplo, "Cucaracha")); */
+
+//* Iteración#5: Función rollDice
+
+let rollDice = (numCaras) => (Math.floor(Math.random() * (numCaras))+1);
+//sumamos 1 para que el resultado sea entre 1 y numCaras exacto
