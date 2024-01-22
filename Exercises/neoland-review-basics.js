@@ -122,5 +122,16 @@ console.log(findArrayIndex(arrayEjemplo, "Cucaracha")); */
 
 //* Iteración#5: Función rollDice
 
-let rollDice = (numCaras) => (Math.floor(Math.random() * (numCaras))+1);
+//let rollDice = (numCaras) => (Math.floor(Math.random() * (numCaras))+1);
 //sumamos 1 para que el resultado sea entre 1 y numCaras exacto
+
+//* Iteración#6: Función swap
+
+let arrayTest = ['Mesirve', 'Cristiano Romualdo', 'Fernando Muralla', 'Ronalguiño'];
+let swap = function (array, index1, index2) {
+    let newArray = [...array];
+    let saveValue = newArray[index1];
+    newArray[index1] = newArray[index2];
+    newArray[index2] = saveValue;
+    return newArray;
+};
