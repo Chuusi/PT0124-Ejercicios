@@ -26,11 +26,22 @@ function findLongestWord(param) {
 
 //Iteración#3: Calcular la suma
 
-const numbers = [1, 2, 3, 5, 45, 37, 58];
+/* const numbers = [1, 2, 3, 5, 45, 37, 58];
 function sumAll(param) {
     let sum = 0;
     for (let number of param){
         sum += number;
     }
     return sum;
+} */
+
+//Iteración#4: Calcular el promedio
+
+const numbers = [12, 21, 38, 5, 45, 37, 6];
+function average(param) {
+    let sum = 0;
+    for (let number of param){
+        sum += number;
+    }
+    return sum/param.length;
 }
