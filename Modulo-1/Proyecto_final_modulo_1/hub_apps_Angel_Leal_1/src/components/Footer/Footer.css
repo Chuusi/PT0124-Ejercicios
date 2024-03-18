@@ -1,0 +1,29 @@
+#footer{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 20vw 1fr 20vw;
+    height: 100px;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--primaryC);
+}
+
+.huevo:after {
+    font-size: 60px;
+    content: "🥚";
+}
+
+.huevo:hover:after{
+    content: "🐣";
+    text-shadow: 0px 0px 50px var(--secondC);
+}
+
+#footer > h3{
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    color: var(--secondC);
+}

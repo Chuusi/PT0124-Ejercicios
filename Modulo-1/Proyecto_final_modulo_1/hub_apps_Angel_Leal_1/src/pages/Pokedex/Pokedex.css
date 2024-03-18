@@ -1,0 +1,57 @@
+#pokedex{
+    height: calc(100vh - 300px);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#filterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+#inputPokemon{
+    width: 200px;
+    height: 1rem;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#galleryPokemon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#paginacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 3rem 0;
+    gap: 0.5rem;
+    & button {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+    }
+}
+
+#buttonPaginacion:hover{
+    box-shadow: 0px 0px 5px var(--primaryC);
+}
+
+#resetFilter{
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+
+#resetFilter:hover{
+    box-shadow: 0px 0px 5px var(--primaryC);
+}

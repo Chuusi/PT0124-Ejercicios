@@ -1,0 +1,49 @@
+#main{
+
+    width: 100vw;
+    height: calc(100vh - 300px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    & #login{
+        width: 500px;
+        height: 350px;
+        background-color: #14110f5d;
+        border-radius: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    & h2, input, button{
+        width: 70%;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    & h2{
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    
+    & input{
+        width: 300px;
+        font-size: 25px;
+    }
+    
+    & button{
+        margin-bottom: 30px;
+        background-color: var(--primaryC);
+        color: var(--secondC);
+        font-size: 25px;
+        width: 65%;
+    }
+    
+    & button:hover{
+        background-color: var(--thirdC);
+    }
+}
