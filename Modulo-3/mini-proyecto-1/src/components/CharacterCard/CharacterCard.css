@@ -1,0 +1,24 @@
+figure{
+    background-color: black;
+    width: 350px;
+    padding: 10px 0px;
+    color:antiquewhite;
+    border-radius: 25px;
+}
+
+img{
+    border-radius: 20%;
+}
+
+#origen {
+    font-size: 16px;
+}
+
+#status {
+    color: green;
+}
+
+figure:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 24px -1px rgba(0,0,0,0.75);
+}
