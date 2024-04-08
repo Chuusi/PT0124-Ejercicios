@@ -7,9 +7,8 @@ const rickData = await data();
 export const Gallery = () => {
 
     return (
-        <div>
-            <h1 id="title-gallery">Lista de personajes de Rick y Morty vivos</h1>
-            <div id="container-gallery">
+        <div  id="container-gallery">
+            <ul>
                 {rickData.map((character) => character.status == "Alive" ?
                     <CharacterCard 
                     id={character.id}
@@ -21,7 +20,7 @@ export const Gallery = () => {
                     />
                     : ""
                 )} 
-            </div>
+            </ul>
         </div>
     )
 }
