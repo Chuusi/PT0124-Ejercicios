@@ -1,0 +1,8 @@
+.eachEducationCard {
+    border: 1px solid black;
+    margin-bottom: 1px;
+}
+
+.cards {
+    background-color: rgba(240, 248, 255, 0.384);
+}
