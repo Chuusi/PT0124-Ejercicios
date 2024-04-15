@@ -1,0 +1,19 @@
+#Bgallery>figure {
+    border: 1px solid #000000;
+    width: 300px;
+    height: 600px;
+    padding-top: 10px;
+}
+
+#Bgallery>figure>img {
+    width: 256px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#Bgallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
