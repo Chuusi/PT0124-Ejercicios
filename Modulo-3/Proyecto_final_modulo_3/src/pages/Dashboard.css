@@ -1,0 +1,52 @@
+.dash-div {
+    font-size: 5em;
+    background-color: var(--btn-color-transparent);
+    width: 50%;
+    height: 25%;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.dash-div p {
+    font-size: 0.5em;
+}
+
+.bg-person {
+    margin: 10px 0px;
+    font-family: "Bebas Neue", sans-serif;
+    --border-angle: 0turn;
+    --main-bg: conic-gradient(from var(--border-angle),
+            var(--primary-color),
+            var(--background-primary-color) 5%,
+            var(--background-primary-color) 60%,
+            var(--primary-color) 95%);
+
+    border: solid 2px transparent;
+    --gradient-border: conic-gradient(from var(--border-angle), transparent 0%, var(--text-color), var(--text-color) 99%, transparent);
+
+    background:
+        var(--main-bg) padding-box,
+        var(--gradient-border) border-box,
+        var(--main-bg) border-box;
+
+    background-position: center center;
+
+    animation: bg-spin 3s linear infinite;
+
+
+
+
+}
+
+@keyframes bg-spin {
+    to {
+        --border-angle: 1turn;
+    }
+}
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+}

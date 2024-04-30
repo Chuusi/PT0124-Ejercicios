@@ -1,0 +1,31 @@
+.image_figure_user {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.figureUser{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--btn-color-transparent);
+    margin-top: 10px;
+
+}
+
+.figureUser h3 {
+    font-weight: 100;
+    font-size: 1.3em;
+}
+
+.figureUser h4 {
+    font-weight: 100;
+    font-size: 1.05em;
+}
+
+.figureUser *:hover {
+    cursor: default;
+}

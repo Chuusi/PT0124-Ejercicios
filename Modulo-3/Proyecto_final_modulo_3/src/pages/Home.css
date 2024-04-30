@@ -1,0 +1,13 @@
+.home-div {
+    font-size: 5em;
+    background-color: var(--btn-color-transparent);
+    width: 50%;
+    height: 25%;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.home-div p {
+    font-size: 0.5em;
+}

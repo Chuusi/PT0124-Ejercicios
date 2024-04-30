@@ -1,0 +1,50 @@
+.footerForm a:hover {
+    background-color: var(--btn-color-2);
+    text-decoration: underline;
+}
+
+.btn-person{
+    height: 3rem;
+    margin: 10px 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-size: 1.3em;
+    --border-angle: 0turn;
+    --main-bg: conic-gradient(from var(--border-angle),
+                var(--primary-color),
+                var(--background-primary-color) 5%,
+                var(--background-primary-color) 60%,
+                var(--primary-color) 95%);
+
+    border: solid 2px transparent;
+    --gradient-border: conic-gradient(from var(--border-angle), transparent 0%, var(--text-color), var(--text-color) 99%, transparent);
+
+    background:
+        var(--main-bg) padding-box,
+        var(--gradient-border) border-box,
+        var(--main-bg) border-box;
+
+    background-position: center center;
+
+    animation: bg-spin 3s linear infinite;
+
+    
+
+    
+}
+
+@keyframes bg-spin {
+    to {
+        --border-angle: 1turn;
+    }
+}
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+}
+
+.btn-person:hover{
+    color: var(--secondary-color)
+}

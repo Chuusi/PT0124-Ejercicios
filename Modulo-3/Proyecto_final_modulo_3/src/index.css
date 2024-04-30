@@ -1,0 +1,30 @@
+:root {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+  --text-color: rgb(224, 224, 224);
+  --btn-color: rgb(65, 65, 65);
+  --btn-color-transparent: rgb(65, 65, 65, 0.6);
+  --btn-color-2: rgb(32, 32, 32);
+  --background-primary-color: rgb(0, 0, 0);
+  --primary-color: rgb(9, 0, 138);
+  --secondary-color: rgb(0, 225, 255);
+
+  color: var(--text-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

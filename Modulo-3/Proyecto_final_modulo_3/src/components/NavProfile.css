@@ -1,0 +1,38 @@
+.iconDeleteUser {
+    border-radius: 50%;
+}
+
+.containerNavProfile {
+    background-color: var(--btn-color-transparent);
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border-radius: 20px;
+    gap: 1rem;
+}
+
+.iconNavInside {
+    font-size: 3em;
+    color: var(--text-color);
+}
+
+.navPro{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconNav{
+    border-radius: 50px;
+    border: 1px var(--btn-color-2) solid;
+}
+
+.iconNav:hover{
+    background-color: var(--btn-color-2);
+    border: 1px var(--text-color) solid;
+    transition: 1s;
+}
