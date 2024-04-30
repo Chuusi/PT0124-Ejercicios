@@ -1,5 +1,5 @@
 import './App.css'
-import { CodeCustomHook } from './hooks/usePokemonCollection'
+import { CodeCustomHook } from './components/CodeCustomHook'
 
 function App() {
 
